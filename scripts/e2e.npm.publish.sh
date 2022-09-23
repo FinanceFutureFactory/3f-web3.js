@@ -11,7 +11,7 @@ set -o errexit
 if [ -z "$CI" ]; then
 
   echo "======================================================================"
-  echo "This script publishes web3 to an npm proxy registry. Only run in CI."
+  echo "This script publishes 3f-web3 to an npm proxy registry. Only run in CI."
   echo "======================================================================"
 
   exit 1

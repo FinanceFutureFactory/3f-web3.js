@@ -76,7 +76,7 @@ if (targetPackage.dependencies){
 }
 
 console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-console.log(`Yarn will resolve Web3 packages in "${process.argv[2]}"" to...`);
+console.log(`Yarn will resolve 3f-Web3 packages in "${process.argv[2]}"" to...`);
 console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 console.log(JSON.stringify(targetPackage.resolutions, null, ' '));

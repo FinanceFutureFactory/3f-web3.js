@@ -25,5 +25,5 @@ nohup docker run -p 9000:9000 -p 127.0.0.1:5052:5052 -v ${HOME}/.lighthouse:/roo
 npm run build
 
 # Test
-npm --prefix ./packages/web3-eth2-core run test
-npm --prefix ./packages/web3-eth2-beaconchain run test
+npm --prefix ./packages/3f-web3-eth2-core run test
+npm --prefix ./packages/3f-web3-eth2-beaconchain run test

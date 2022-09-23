@@ -27,18 +27,18 @@ cd mosaic-1
 
 # Install via registry and verify
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-echo "Installing updated web3 via virtual registry "
+echo "Installing updated 3f-web3 via virtual registry "
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 git submodule update --init --recursive
 yarn --registry http://localhost:4873
 
-yarn add web3@e2e --registry http://localhost:4873 --network-timeout 600000
+yarn add 3f-web3@e2e --registry http://localhost:4873 --network-timeout 600000
 
-yarn list web3
-yarn list web3-utils
-yarn list web3-core
-yarn list web3-core-promievent
+yarn list 3f-web3
+yarn list 3f-web3-utils
+yarn list 3f-web3-core
+yarn list 3f-web3-core-promievent
 
 cat ./package.json
 

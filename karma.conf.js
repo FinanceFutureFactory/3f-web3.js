@@ -3,9 +3,9 @@
 function getTestFiles() {
     switch (process.env.BROWSER_BUNDLE_TEST) {
         case 'publishedDist':
-            return ['packages/web3/dist/web3.min.js', 'test/e2e.minified.js'];
+            return ['packages/3f-web3/dist/3f-web3.min.js', 'test/e2e.minified.js'];
         case 'gitRepoDist':
-            return ['dist/web3.min.js', 'test/e2e.minified.js'];
+            return ['dist/3f-web3.min.js', 'test/e2e.minified.js'];
         default:
             return ['test/**/e2e*.js'];
     }
