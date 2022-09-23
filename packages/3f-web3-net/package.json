@@ -1,0 +1,25 @@
+{
+    "name": "3f-web3-net",
+    "version": "1.7.5",
+    "description": "3F-Web3 module to interact with the Ethereum nodes networking properties.",
+    "repository": "https://github.com/FinanceFutureFactory/3f-web3.js/tree/main/packages/3f-web3-net",
+    "license": "LGPL-3.0",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "types": "types/index.d.ts",
+    "scripts": {
+        "compile": "tsc -b tsconfig.json",
+        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "3f-web3-core": "1.7.5",
+        "3f-web3-core-method": "1.7.5",
+        "3f-web3-utils": "1.7.5"
+    },
+    "devDependencies": {
+        "dtslint": "^3.4.1",
+        "typescript": "^3.9.5"
+    }
+}

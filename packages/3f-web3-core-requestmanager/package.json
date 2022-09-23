@@ -1,0 +1,21 @@
+{
+    "name": "3f-web3-core-requestmanager",
+    "version": "1.7.5",
+    "description": "3F-Web3 module to handle requests to external providers.",
+    "repository": "https://github.com/FinanceFutureFactory/3f-web3.js/tree/main/packages/3f-web3-core-requestmanager",
+    "license": "LGPL-3.0",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "main": "lib/index.js",
+    "scripts": {
+        "compile": "tsc -b tsconfig.json"
+    },
+    "dependencies": {
+        "util": "^0.12.0",
+        "3f-web3-core-helpers": "1.7.5",
+        "3f-web3-providers-http": "1.7.5",
+        "3f-web3-providers-ipc": "1.7.5",
+        "3f-web3-providers-ws": "1.7.5"
+    }
+}

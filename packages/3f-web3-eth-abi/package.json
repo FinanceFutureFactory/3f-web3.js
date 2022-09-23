@@ -1,0 +1,24 @@
+{
+    "name": "3f-web3-eth-abi",
+    "version": "1.0.0",
+    "description": "3F-Web3 module encode and decode EVM in/output.",
+    "repository": "https://github.com/FinanceFutureFactory/3f-web3.js/tree/main/packages/web3-eth-abi",
+    "license": "LGPL-3.0",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "types": "types/index.d.ts",
+    "scripts": {
+        "compile": "tsc -b tsconfig.json",
+        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "@ethersproject/abi": "^5.6.3",
+        "3f-web3-utils": "1.7.5"
+    },
+    "devDependencies": {
+        "dtslint": "^3.4.1",
+        "typescript": "^3.9.5"
+    }
+}
