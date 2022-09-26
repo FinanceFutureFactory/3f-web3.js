@@ -31,8 +31,16 @@ var uuid = require('uuid');
 var utils = require('3f-web3-utils');
 var helpers = require('3f-web3-core-helpers');
 var {TransactionFactory} = require('@ethereumjs/tx');
-var Common = require('@ethereumjs/common').default;
-var HardForks = require('@ethereumjs/common').Hardfork;
+
+
+var ethereumjs = require('@ethereumjs/common')
+
+var Common = ethereumjs.default;
+var HardForks = ethereumjs.Hardfork;
+
+// var Common = require('@ethereumjs/common').default;
+// var HardForks = require('@ethereumjs/common').Hardfork;
+
 var ethereumjsUtil = require('ethereumjs-util');
 
 var isNot = function(value) {

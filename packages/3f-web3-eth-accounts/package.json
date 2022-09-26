@@ -10,7 +10,7 @@
     "types": "types/index.d.ts",
     "scripts": {
         "compile": "tsc -b tsconfig.json",
-        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib  types"
+        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types"
     },
     "main": "lib/index.js",
     "dependencies": {
@@ -28,6 +28,6 @@
     },
     "devDependencies": {
         "dtslint": "^3.4.1",
-        "typescript": "^3.9.5"
+        "typescript": "4.8.3"
     }
 }
